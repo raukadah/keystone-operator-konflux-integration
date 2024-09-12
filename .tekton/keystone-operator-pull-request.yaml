@@ -39,7 +39,7 @@ spec:
   #     - linux/ppc64le
   #     - linux/s390x
   pipelineRef:
-    name: build-pipeline
+    name: single-arch-build-pipeline
   taskRunTemplate: {}
 #  workspaces:
 #  - name: git-auth
